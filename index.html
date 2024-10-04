@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="Comparación de normativas ISO 9000, ISO 9001 e ISO 9004">
+    <meta name="author" content="Tu Nombre">
+    <title>JFGS. Comparación Normas ISO 9000, 9001, 9004</title>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="introModal" tabindex="-1" aria-labelledby="introModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="introModalLabel">Resolución Práctica Final del Curso</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="font-size: 1.2 rem">
+                    <p>En esta página encontrarás el análisis diferencial de las normas ISO 9000, ISO 9001 e ISO 9004,
+                        como respuesta de la actividad final del curso.</p>
+                    <p>A través del menú con las distintas secciones, podrás visualizar el análisis realizado comparando
+                        cada una de las normas de acuerdo a los quince puntos analizados.</p>
+                    <p>Gracias de antemano,</p>
+                    <p>Juan F. González Santamaría</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Main Section (Sidebar + Dashboard) ======= -->
+    <div class="container-fluid" style="min-height: 10vh; max-height: 10vh; width: 100%;">
+        <header id="header" class="header fixed-top d-flex align-items-center" style="height: 10vh">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="index.html" class="logo d-flex align-items-center">
+                    <span class="d-none d-lg-block" style="white-space: nowrap;">Comparación Normas ISO</span>
+                </a>
+            </div>
+            <div class="ms-auto align-items-right justify-content-between me-5">
+                <h4><span style="white-space: nowrap;">Realizado por: Juan F. González Santamaría</span></h4>
+            </div>
+    </div>
+    </header>
+    </div>
+    <!-- End Header -->
+
+    <!-- Ajuste del margen superior para que el contenido no se tape -->
+
+    <!-- ======= Sidebar ======= -->
+    <div class="container-fluid" style="min-height: 80vh; max-height: 80vh; padding-bottom: 10vh;">
+        <main id="main" class="main">
+            <aside id="sidebar" class="sidebar" style="margin-top: 4vh; font-size: 1.2rem">
+                <ul class="sidebar-nav" id="sidebar-nav">
+                    <!-- Apartado 1: Propósito y Enfoque -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#proposito">
+                            <i class="bi bi-briefcase"></i>
+                            <span>1. Propósito y Enfoque</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 2: Ámbito de Aplicación -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#ambito">
+                            <i class="bi bi-diagram-3"></i>
+                            <span>2. Ámbito de Aplicación</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 3: Certificación -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#certificacion">
+                            <i class="bi bi-award"></i>
+                            <span>3. Certificación</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 4: Requisitos vs Directrices -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#requisitos">
+                            <i class="bi bi-journal-check"></i>
+                            <span>4. Requisitos vs Directrices</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 5: Orientación Temporal -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#temporal">
+                            <i class="bi bi-clock"></i>
+                            <span>5. Orientación Temporal</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 6: Aplicabilidad -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#aplicabilidad">
+                            <i class="bi bi-gear"></i>
+                            <span>6. Aplicabilidad</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 7: Mejora Continua -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#mejora-continua">
+                            <i class="bi bi-arrow-repeat"></i>
+                            <span>7. Mejora Continua</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 8: Nivel de Detalle y Profundidad -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#detalle-profundidad">
+                            <i class="bi bi-bar-chart"></i>
+                            <span>8. Nivel de Detalle y Profundidad</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 9: Usuarios u Organizaciones Objetivo -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#tipo-usuarios">
+                            <i class="bi bi-people"></i>
+                            <span>9. Usuarios u Organizaciones Objetivo</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 10: Enfoque en Stakeholders -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#stakeholders">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span>10. Enfoque en Stakeholders</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 11: Ciclo de Vida de Productos y Servicios -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#ciclo-vida">
+                            <i class="bi bi-arrow-left-right"></i>
+                            <span>11. Ciclo de Vida de Productos y Servicios</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 12: Énfasis en la Innovación -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#innovacion">
+                            <i class="bi bi-lightbulb"></i>
+                            <span>12. Énfasis en la Innovación</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 13: Simplicidad vs Complejidad -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#simplicidad-complejidad">
+                            <i class="bi bi-sliders"></i>
+                            <span>12+1. Simplicidad vs Complejidad</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 14: Relación con el Riesgo -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#riesgo">
+                            <i class="bi bi-exclamation-triangle"></i>
+                            <span>14. Relación con el Riesgo</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 15: Orientación Hacia el Liderazgo -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#liderazgo">
+                            <i class="bi bi-person-badge"></i>
+                            <span>15. Orientación Hacia el Liderazgo</span>
+                        </a>
+                    </li>
+
+                    <!-- Apartado 16: Tabla Comparativa -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#tabla-comparativa">
+                            <i class="bi bi-table"></i>
+                            <span>16. Tabla Resumen</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <!-- End Sidebar -->
+            <!-- ======= Propósito y Enfoque Section ======= -->
+            <div class="dashboard" style="margin-top: -10vh;">
+                <section id="proposito" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>1. Propósito y Enfoque</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        Su principal función es definir los fundamentos y vocabulario para los sistemas
+                                        de
+                                        gestión de la calidad. No es una norma certificable, sino un documento de
+                                        referencia
+                                        que introduce los principios básicos de la calidad y proporciona las
+                                        definiciones y
+                                        conceptos que permiten una comprensión común del sistema.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Es la norma certificable que establece los requisitos para implementar un
+                                        sistema de
+                                        gestión de la calidad. El objetivo es asegurar que las organizaciones puedan
+                                        satisfacer consistentemente los requisitos del cliente y mejorar su desempeño,
+                                        enfocándose en la gestión operativa.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Va más allá de la ISO 9001 al ofrecer una guía para mejorar el desempeño
+                                        organizacional a largo plazo. Se enfoca en la calidad total y el éxito
+                                        sostenido, no
+                                        solo en cumplir con los requisitos mínimos de calidad. Su enfoque es más
+                                        estratégico, abarcando la mejora continua en todas las áreas de la organización.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="ambito" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>2. Ámbito de Aplicación</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        Tiene un enfoque teórico y conceptual. No se utiliza para la implementación de
+                                        sistemas de calidad en sí mismos, sino para proporcionar una base común de
+                                        entendimiento sobre cómo estos deben funcionar.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Se aplica a cualquier organización que desee implementar un sistema de gestión
+                                        de
+                                        calidad certificable. Su enfoque es práctico, con requisitos concretos que deben
+                                        cumplirse para garantizar la eficacia del sistema y mejorar la satisfacción del
+                                        cliente.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Está dirigida a organizaciones que ya tienen un sistema de gestión de la calidad
+                                        implementado y desean avanzar hacia la mejora continua y el éxito sostenido. No
+                                        es
+                                        certificable, pero es útil como una guía complementaria para mejorar la
+                                        eficiencia y
+                                        competitividad de la organización.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="certificacion" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>3. Certificación</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        No es certificable. Su propósito es ser un marco de referencia y guía
+                                        conceptual.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Es certificable. Las organizaciones que cumplen con sus requisitos pueden
+                                        obtener
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Tampoco es certificable. Aunque proporciona valiosas pautas para la mejora
+                                        organizacional, no está destinada a ser una norma de conformidad o
+                                        certificación. Su
+                                        uso es interno y estratégico para organizaciones que buscan mejorar más allá de
+                                        los
+                                        requisitos mínimos de la ISO 9001.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="requisitos" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>4. Requisitos vs. Directrices</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        No contiene requisitos, solo directrices conceptuales sobre los principios y el
+                                        vocabulario de los sistemas de calidad. Es la base sobre la cual se entienden
+                                        las
+                                        demás normas.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Contiene requisitos específicos y obligatorios que las organizaciones deben
+                                        cumplir
+                                        para establecer, implementar, mantener y mejorar un sistema de gestión de la
+                                        calidad. Estos requisitos se enfocan en áreas como el liderazgo, la
+                                        planificación,
+                                        el soporte, la operación, la evaluación del desempeño y la mejora.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Ofrece directrices no obligatorias que ayudan a las organizaciones a optimizar
+                                        su
+                                        sistema de gestión de calidad, promoviendo una mejora continua. Su enfoque es
+                                        más
+                                        amplio, con un interés en aspectos como la gestión del conocimiento, la gestión
+                                        del
+                                        riesgo y la sostenibilidad.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="temporal" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>5. Orientación Temporal</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        Tiene una orientación teórica y es esencial para comprender los principios de
+                                        gestión de calidad a corto y largo plazo.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Está centrada en la implementación y mantenimiento del sistema de gestión de
+                                        calidad
+                                        en el corto y mediano plazo, con ciclos de mejora continua basados en el ciclo
+                                        PDCA
+                                        (Planificar, Hacer, Verificar, Actuar). </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Está orientada al éxito sostenible a largo plazo, centrándose en la capacidad de
+                                        la
+                                        organización para perdurar y adaptarse a los cambios del entorno, asegurando no
+                                        solo
+                                        la calidad operativa, sino también la mejora organizacional integral.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="aplicabilidad" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>6. Aplicabilidad</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        Aplica a cualquier organización que desee conocer y entender los principios de
+                                        la
+                                        calidad. Se usa como un documento introductorio para comprender el contexto
+                                        general
+                                        de las normas ISO de calidad.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Aplica a cualquier organización, independientemente de su tamaño o sector, que
+                                        desee
+                                        implementar un sistema de gestión de la calidad certificable para mejorar su
+                                        capacidad de cumplir con los requisitos del cliente y optimizar su eficiencia
+                                        operativa.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Aplica a organizaciones que ya han implementado un sistema de calidad basado en
+                                        ISO 9001 y desean expandirlo para lograr un desempeño más completo y sostenible
+                                        en todas las áreas de la organización.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="mejora-continua" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>7. Mejora Continua</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        No aborda específicamente la mejora continua, ya que su enfoque es
+                                        introductorio.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        La mejora continua es un principio fundamental de esta norma. Se enfoca en la
+                                        satisfacción del cliente y la eficiencia de los procesos para garantizar que la
+                                        organización pueda adaptarse y mejorar de manera regular.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Fomenta una mejora continua más amplia, no solo del sistema de gestión de
+                                        calidad,
+                                        sino de todos los aspectos organizacionales. Va más allá del cumplimiento de
+                                        requisitos, hacia una mejora en la gestión del liderazgo, los recursos y el
+                                        desarrollo de capacidades para garantizar el éxito a largo plazo.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="detalle-profundidad" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>8. Nivel de Detalle y Profundidad</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        Es una norma más general y amplia, con un enfoque introductorio y conceptual. No
+                                        entra en detalles sobre la implementación de los procesos de calidad, sino que
+                                        define los términos y principios necesarios para que las organizaciones
+                                        comprendan
+                                        el lenguaje y los conceptos detrás de un sistema de gestión de la calidad. Es
+                                        una
+                                        norma didáctica, diseñada principalmente para facilitar la comprensión del resto
+                                        de
+                                        las normas.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Es una norma detallada y prescriptiva. Establece una serie de requisitos
+                                        específicos
+                                        que deben cumplirse para la implementación y certificación de un sistema de
+                                        gestión
+                                        de la calidad. Cada sección de la norma (liderazgo, planificación, operación,
+                                        evaluación del desempeño, mejora) ofrece una guía detallada sobre lo que se
+                                        espera
+                                        de la organización para garantizar la calidad de sus productos o servicios.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Es una norma más amplia y estratégica, aunque no entra en detalles operativos
+                                        específicos como la ISO 9001. Proporciona directrices para mejorar el
+                                        rendimiento
+                                        organizacional en su conjunto, con un enfoque en el éxito sostenido y la
+                                        eficiencia
+                                        a largo plazo. Es menos prescriptiva y más flexible, permitiendo a las
+                                        organizaciones adaptar sus principios a su contexto particular.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="tipo-usuarios" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>9. Usuarios u Organizaciones Objetivo</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        Está dirigida a todos los tipos de usuarios, desde pequeñas y medianas empresas
+                                        hasta grandes corporaciones, e incluso personas que deseen familiarizarse con
+                                        los
+                                        fundamentos de la calidad. Es especialmente útil para principiantes en la
+                                        implementación de sistemas de gestión de calidad, ya que proporciona una base
+                                        sólida
+                                        para comprender las otras normas de la familia.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Es utilizada por organizaciones de cualquier tamaño y sector que buscan
+                                        implementar
+                                        un sistema de gestión de la calidad que cumpla con requisitos específicos y que
+                                        pueda ser certificado. La norma es particularmente útil para aquellas empresas
+                                        que
+                                        desean demostrar su compromiso con la calidad ante sus clientes, proveedores y
+                                        reguladores. Su uso es común en sectores con altas exigencias de calidad, como
+                                        la
+                                        automoción, la salud, la manufactura o los servicios.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Está orientada a organizaciones más maduras que ya han implementado un sistema
+                                        de
+                                        gestión de la calidad (normalmente con base en ISO 9001) y que desean ir más
+                                        allá
+                                        del cumplimiento básico. Es ideal para empresas que buscan optimizar su
+                                        rendimiento
+                                        global y garantizar su competitividad en el largo plazo. También es valiosa para
+                                        empresas en sectores que requieren innovación constante y adaptación a cambios
+                                        rápidos en el mercado.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="stakeholders" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>10. Enfoque en Partes Interesadas (Stakeholders)</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        No profundiza en las relaciones con partes interesadas. Su principal objetivo es
+                                        definir y aclarar conceptos relacionados con la gestión de la calidad, sin
+                                        abordar
+                                        cómo las organizaciones deben interactuar con sus grupos de interés.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        La norma establece un fuerte enfoque en los clientes como las principales partes
+                                        interesadas, con la satisfacción del cliente como un principio clave. Además,
+                                        menciona la importancia de la comunicación con todas las partes interesadas
+                                        (incluyendo empleados, proveedores y socios) para asegurar que los procesos de
+                                        calidad sean efectivos. Sin embargo, el enfoque sigue siendo mayoritariamente
+                                        operacional.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Tiene un enfoque más amplio y estratégico hacia las partes interesadas. No solo
+                                        considera a los clientes, sino también a los empleados, accionistas,
+                                        proveedores, la
+                                        comunidad y otras partes interesadas. Promueve un enfoque equilibrado en la
+                                        gestión
+                                        de las expectativas de todas las partes interesadas para garantizar el éxito
+                                        sostenido de la organización.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="ciclo-vida" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>11. Relación con el Ciclo de Vida de los Productos y Servicios</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        No tiene un enfoque específico en el ciclo de vida del producto, ya que su
+                                        propósito
+                                        es introducir conceptos generales y ofrecer un marco de referencia. Sin embargo,
+                                        proporciona definiciones relacionadas con el ciclo de vida que ayudan a
+                                        comprender
+                                        las otras normas de la familia ISO 9000.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        La ISO 9001 sí tiene un enfoque claro en el ciclo de vida de los productos y
+                                        servicios. Desde la planificación del producto, pasando por el control del
+                                        diseño,
+                                        la producción, la entrega y el servicio postventa, la norma establece requisitos
+                                        específicos para asegurar que cada etapa del ciclo de vida del producto se
+                                        gestione
+                                        de manera efectiva y con alta calidad. Es crucial para garantizar que los
+                                        productos
+                                        cumplan consistentemente con los requisitos del cliente durante todas las fases
+                                        de
+                                        desarrollo y entrega.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Aunque no prescribe requisitos específicos para el ciclo de vida, la ISO 9004
+                                        fomenta una gestión integral y optimizada del ciclo de vida de los productos y
+                                        servicios. Se enfoca en mejorar la eficiencia y efectividad en cada fase del
+                                        ciclo,
+                                        no solo en términos de calidad, sino también de innovación, sostenibilidad y
+                                        rentabilidad.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="innovacion" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>12. Énfasis en la Innovación</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        No se centra en la innovación. Su enfoque es exclusivamente introductorio y
+                                        proporciona los cimientos sobre los cuales se puede construir un sistema de
+                                        calidad,
+                                        pero no aborda la innovación como un objetivo o proceso.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        La innovación no es un enfoque principal de esta norma, ya que su objetivo está
+                                        más
+                                        en la estandarización y control de procesos para asegurar la calidad. Aunque
+                                        fomenta
+                                        la mejora continua, no entra en detalles sobre cómo fomentar la innovación en
+                                        productos o procesos.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Aquí, la innovación tiene un papel más importante. La norma fomenta un enfoque
+                                        proactivo y estratégico hacia la innovación, sugiriendo que las organizaciones
+                                        que
+                                        desean mantenerse competitivas a largo plazo deben fomentar la innovación en sus
+                                        procesos, productos y servicios. Se entiende que la innovación es un factor
+                                        clave
+                                        para el éxito sostenido.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="simplicidad-complejidad" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>12+1. Simplicidad vs. Complejidad</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        Es una norma relativamente simple y comprensible. Está diseñada para ser fácil
+                                        de
+                                        leer y aplicar, y no incluye requisitos complejos. Su objetivo es proporcionar
+                                        claridad y consistencia en los términos y principios fundamentales.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Es una norma más compleja, ya que incluye requisitos detallados que deben
+                                        cumplirse
+                                        para obtener la certificación. La implementación de ISO 9001 requiere un enfoque
+                                        riguroso en la gestión de los procesos y puede requerir una mayor inversión en
+                                        términos de tiempo y recursos.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Aunque no es tan prescriptiva como ISO 9001, puede ser más compleja en su
+                                        enfoque
+                                        debido a su amplitud. Al tratar temas como el liderazgo, la gestión del
+                                        conocimiento, la eficiencia operativa y la sostenibilidad, ISO 9004 requiere una
+                                        visión más amplia y a menudo más sofisticada del desempeño organizacional.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="riesgo" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>14. Relación con el Riesgo</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        No aborda directamente la gestión del riesgo. Su enfoque es puramente conceptual
+                                        y
+                                        no proporciona pautas sobre cómo las organizaciones deben gestionar riesgos
+                                        relacionados con la calidad.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Integra el concepto de gestión del riesgo como un componente importante del
+                                        sistema
+                                        de gestión de calidad. La norma promueve un enfoque basado en el riesgo, lo que
+                                        significa que las organizaciones deben identificar y gestionar los riesgos que
+                                        pueden afectar la conformidad del producto y la satisfacción del cliente.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Va más allá del enfoque basado en riesgos de la ISO 9001. En lugar de centrarse
+                                        solo
+                                        en riesgos operativos, ISO 9004 fomenta una gestión integral de riesgos,
+                                        incluyendo
+                                        riesgos estratégicos, operativos y financieros, con el objetivo de garantizar el
+                                        éxito sostenido.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="liderazgo" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>15. Orientación Hacia el Liderazgo</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9000</div>
+                                    <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
+                                    <div class="activity-content">
+                                        Aunque menciona el liderazgo como un principio clave de la gestión de la
+                                        calidad, no
+                                        proporciona pautas específicas para el desarrollo o la gestión del liderazgo
+                                        dentro
+                                        de la organización.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9001</div>
+                                    <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
+                                    <div class="activity-content">
+                                        Requiere que la alta dirección asuma la responsabilidad del sistema de gestión
+                                        de la
+                                        calidad. El liderazgo es un elemento central para la implementación exitosa del
+                                        sistema, ya que la alta dirección debe demostrar su compromiso, asignar recursos
+                                        y
+                                        asegurarse de que los objetivos de calidad se establezcan y se alcancen.
+                                    </div>
+                                </div>
+                                <div class="activity-item d-flex" style="font-size: 1.1rem">
+                                    <div class="activite-label fw-bold me-4">ISO 9004</div>
+                                    <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
+                                    <div class="activity-content">
+                                        Fomenta un enfoque más amplio y profundo del liderazgo. No solo se espera que
+                                        los
+                                        líderes gestionen el sistema de calidad, sino que también se centren en el
+                                        desarrollo del talento, la creación de una cultura de calidad y la gestión
+                                        estratégica para garantizar el éxito sostenido.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="tabla-comparativa" class="section" style="scroll-margin-top: 12vh;">
+                    <div class="card p-3 m-2 mb-4">
+                        <div class="card-body">
+                            <div class="activity">
+                                <h4><strong>16. Tabla Resumen</strong></h4>
+                                <div class="activity-item d-flex mt-4" style="font-size: 1.1rem">
+                                    <table class="table table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Epígrafe</th>
+                                                <th>ISO 9000</th>
+                                                <th>ISO 9001</th>
+                                                <th>ISO 9004</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="fw-bold">1. Propósito y Enfoque</td>
+                                                <td>Define los fundamentos y vocabulario para los sistemas de gestión de
+                                                    la calidad. No es certificable.</td>
+                                                <td>Es la norma certificable que establece los requisitos para un
+                                                    sistema de gestión de la calidad.</td>
+                                                <td>Ofrece una guía para mejorar el desempeño organizacional a largo
+                                                    plazo. No es certificable.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">2. Ámbito de Aplicación</td>
+                                                <td>Enfoque teórico y conceptual, proporcionando una base común.</td>
+                                                <td>Se aplica a cualquier organización que desee implementar un sistema
+                                                    de calidad certificable.</td>
+                                                <td>Dirigida a organizaciones con un sistema de calidad implementado y
+                                                    que buscan mejora continua.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">3. Certificación</td>
+                                                <td>No es certificable.</td>
+                                                <td>Es certificable, se puede obtener tras auditoría externa.</td>
+                                                <td>No es certificable.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">4. Requisitos vs. Directrices</td>
+                                                <td>No contiene requisitos, solo directrices conceptuales.</td>
+                                                <td>Contiene requisitos específicos y obligatorios.</td>
+                                                <td>Ofrece directrices no obligatorias para optimizar el sistema de
+                                                    calidad.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">5. Orientación Temporal</td>
+                                                <td>Orientación teórica, comprendiendo principios a corto y largo plazo.
+                                                </td>
+                                                <td>Orientada al corto y mediano plazo con ciclos PDCA.</td>
+                                                <td>Orientada al éxito sostenible a largo plazo.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">6. Aplicabilidad</td>
+                                                <td>Aplica a cualquier organización que desee conocer los principios de
+                                                    la calidad.</td>
+                                                <td>Aplica a cualquier organización que busque certificación para
+                                                    cumplir requisitos del cliente.</td>
+                                                <td>Aplica a organizaciones que buscan expandir el sistema de calidad
+                                                    para lograr un desempeño sostenible.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">7. Visión de la Mejora Continua</td>
+                                                <td>No aborda específicamente la mejora continua.</td>
+                                                <td>La mejora continua es un principio fundamental de esta norma.</td>
+                                                <td>Fomenta una mejora continua más amplia de todos los aspectos
+                                                    organizacionales.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">8. Nivel de Detalle y Profundidad</td>
+                                                <td>Es más general y amplia, con enfoque introductorio y conceptual.
+                                                </td>
+                                                <td>Es detallada y prescriptiva, con requisitos específicos.</td>
+                                                <td>Es más amplia y estratégica, con un enfoque en el éxito sostenido.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">9. Tipo de Usuarios u Organizaciones Objetivo</td>
+                                                <td>Dirigida a todos los tipos de usuarios, útil para principiantes.
+                                                </td>
+                                                <td>Utilizada por organizaciones de cualquier tamaño y sector.</td>
+                                                <td>Orientada a organizaciones más maduras que desean mejorar su
+                                                    rendimiento global.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">10. Enfoque en Partes Interesadas</td>
+                                                <td>No profundiza en relaciones con partes interesadas.</td>
+                                                <td>Fuerte enfoque en clientes como principales partes interesadas.</td>
+                                                <td>Tiene un enfoque estratégico en todas las partes interesadas.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">11. Relación con el Ciclo de Vida de los Productos y
+                                                    Servicios</td>
+                                                <td>No tiene un enfoque específico en el ciclo de vida.</td>
+                                                <td>Tiene un enfoque claro en el ciclo de vida de los productos y
+                                                    servicios.</td>
+                                                <td>Fomenta una gestión optimizada del ciclo de vida de productos y
+                                                    servicios.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">12. Énfasis en la Innovación</td>
+                                                <td>No se centra en la innovación.</td>
+                                                <td>No se centra en la innovación.</td>
+                                                <td>Fomenta la innovación para mantener la competitividad a largo plazo.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">13. Simplicidad vs. Complejidad</td>
+                                                <td>Es simple y comprensible, diseñada para ser fácil de aplicar.</td>
+                                                <td>Es más compleja, incluye requisitos detallados para certificación.
+                                                </td>
+                                                <td>Es menos prescriptiva pero más estratégica, requiere visión más
+                                                    amplia.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">14. Relación con el Riesgo</td>
+                                                <td>No aborda directamente la gestión del riesgo.</td>
+                                                <td>Promueve un enfoque basado en el riesgo.</td>
+                                                <td>Fomenta una gestión integral de riesgos, incluyendo estratégicos y
+                                                    financieros.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fw-bold">15. Orientación Hacia el Liderazgo</td>
+                                                <td>Menciona el liderazgo como principio clave, sin pautas específicas.
+                                                </td>
+                                                <td>Requiere que la alta dirección asuma la responsabilidad del sistema
+                                                    de gestión de calidad.</td>
+                                                <td>Fomenta un enfoque más amplio del liderazgo, centrado en la creación
+                                                    de una cultura de calidad.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <!-- End Main Section -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Script para cargar el modal automáticamente -->
+    <script>
+        window.onload = function () {
+            var myModal = new bootstrap.Modal(document.getElementById('introModal'));
+            myModal.show();
+        };
+    </script>
+</body>
+
+</html>
